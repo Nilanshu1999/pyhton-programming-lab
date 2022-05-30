@@ -1,0 +1,7 @@
+s=input("enter main string")
+b=input('enter the string you have to check')
+c=0
+for i in range(len(s)):
+    if s[i:i+len(b)]==b:
+Create program to find a substring from main strinCreate program to find a substring from main strin        c+=1
+print(c)
